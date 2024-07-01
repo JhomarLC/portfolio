@@ -100,4 +100,18 @@
   .text-container {
     text-align: justify;
   }
+  .grid-containers {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+  .contactme-info-container {
+    margin: 0;
+  }
+  .flex-contactme {
+    flex-direction: column;
+  }
+  .about-containers {
+    flex-direction: column;
+  }
 }
